@@ -22,3 +22,4 @@ Los scripts permiten realizar dos tipos principales de análisis:
 ---
 
 ## 📂 Estructura general
+-
