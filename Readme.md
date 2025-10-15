@@ -23,7 +23,7 @@ Los scripts permiten realizar dos tipos principales de análisis:
 
 ## 📂 Estructura general
 
-<pre> ```
+<pre> 
 ├── Readme.md ← Este archivo
 ├── ouputs/ ← Resultados de espectros Doppler (potencia vs altura-frecuencia)
 ├── scripts/ ← Scripts principales del procesamiento
@@ -35,4 +35,4 @@ Los scripts permiten realizar dos tipos principales de análisis:
 │ ├── read_amisr14_class.py ← Lector de archivos HDF5 en estructura unificada
 │ ├── reader10ch_rti_ch4.py ← Ejemplo: RTI usando canal 4 (10 canales)
 │ ├── test_animate_spectrum.py ← Ejemplo de animación de espectros Doppler
-│ └── test_spectrum.py ← Ejemplo de espectro estático (bloque único) ``` </pre>
+│ └── test_spectrum.py ← Ejemplo de espectro estático (bloque único) </pre>
