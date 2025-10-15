@@ -1,4 +1,23 @@
 """
+Descripción del programa – Generador de RTI para Radar AMISR-14
+
+Este programa procesa archivos de datos en formato HDF5 generados por el radar AMISR-14 y 
+produce un gráfico RTI (Range–Time Intensity) de potencia en decibelios (dB).
+El proceso incluye lectura, concatenación, cálculo de potencia, estimación del piso de ruido y 
+visualización final con escala de colores ajustada.
+
+🧩 Librerías utilizadas
+
+h5py : lectura de archivos HDF5.
+
+numpy : operaciones numéricas y vectoriales.
+
+matplotlib : visualización de datos.
+
+glob, os : búsqueda y manejo de archivos.
+
+datetime, pytz : manejo de tiempo y zonas horarias.
+
 1. ESTE PROGRAMA LEE LOS ARCHIVOS CON EXTENSION hdf5
 2. LOS ORDENA POR NOMBRE 0,1,2,4,...
 3. Extrae la data de (perfiles,alturas), lista de alturas  y marca de tiempo
