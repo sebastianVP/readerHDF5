@@ -22,4 +22,18 @@ Los scripts permiten realizar dos tipos principales de análisis:
 ---
 
 ## 📂 Estructura general
--
+
+<pre> ```yaml name:
+├── Readme.md ← Este archivo
+├── rti/ ← Resultados de gráficos RTI (potencia vs tiempo-altura)
+├── spectra/ ← Resultados de espectros Doppler (potencia vs altura-frecuencia)
+├── scripts/ ← Scripts principales del procesamiento
+│ ├── animate_spectrum_sequence.py ← Anima y guarda secuencias de espectros Doppler
+│ ├── inspect_hdf5.py ← Inspecciona el contenido de un archivo HDF5
+│ ├── plot_spectrum_block.py ← Grafica un bloque FFT (espectro individual)
+│ ├── potencia_rti_esf.py ← Calcula y genera RTI de potencia (Eco Spread F)
+│ ├── process_amisr14_sequence.py ← Clase principal de procesamiento por bloques
+│ ├── read_amisr14_class.py ← Lector de archivos HDF5 en estructura unificada
+│ ├── reader10ch_rti_ch4.py ← Ejemplo: RTI usando canal 4 (10 canales)
+│ ├── test_animate_spectrum.py ← Ejemplo de animación de espectros Doppler
+│ └── test_spectrum.py ← Ejemplo de espectro estático (bloque único) ``` </pre>
