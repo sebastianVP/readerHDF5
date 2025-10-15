@@ -23,10 +23,9 @@ Los scripts permiten realizar dos tipos principales de análisis:
 
 ## 📂 Estructura general
 
-<pre> ```yaml name:
+<pre> ```
 ├── Readme.md ← Este archivo
-├── rti/ ← Resultados de gráficos RTI (potencia vs tiempo-altura)
-├── spectra/ ← Resultados de espectros Doppler (potencia vs altura-frecuencia)
+├── ouputs/ ← Resultados de espectros Doppler (potencia vs altura-frecuencia)
 ├── scripts/ ← Scripts principales del procesamiento
 │ ├── animate_spectrum_sequence.py ← Anima y guarda secuencias de espectros Doppler
 │ ├── inspect_hdf5.py ← Inspecciona el contenido de un archivo HDF5
